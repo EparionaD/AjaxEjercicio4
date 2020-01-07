@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="col">
+                <h1>AJAX</h1>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col">
+                <form action="GET">
+                    <input type="text" id="palabra">
+                    <button type="button" class="btn btn-primary" id="buscar">Buscar</button>
+                </form>
+            </div>
+        </div>
+        <div class="row" id="contenido">
+        </div>
+    </main>
+    <script src="jquery-3.4.1.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
